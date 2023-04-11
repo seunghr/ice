@@ -1,0 +1,111 @@
+.product_banner > img{
+    width: 100%;
+}
+.product_title{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 80px;
+    /* margin-bottom: 100px; */
+}
+.product_title > li:nth-of-type(1){
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+.product_img{
+    width: 540px;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.product_img > div{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: #efefe7;
+    position: relative;
+}
+.product_img > div > img{
+    position: absolute;
+    width: 50%;
+    left: 40px;
+    top: 40px;
+}
+.product_img > div:nth-of-type(1) > img{
+    width: 80%;
+    left: 20px;
+    top: 50px;
+}
+.product_img > div:nth-of-type(3) > img{
+    width: 70%;
+    left: 25px;
+    top: 30px;
+}
+.product_img > div > span{
+    width: 100px;
+    position: absolute;
+    top: 170px;
+    text-align: center;
+    left: 35px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.product_tab01{
+    display: flex;
+    padding-top: 100px;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    color: #444;
+    margin-bottom: 100px;
+}
+.product_tab01 > li > span{
+    font-weight: bold;
+}
+.product_tab02{
+    display: flex;
+    height: 30px;
+}
+.product_tab02 > li{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    margin-left: 5px;
+    font-size: 12px;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+
+.table-container{
+    width:900px; 
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.table-container td,
+.table-container th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table-container th{ 
+    height: 50px;
+    background-color: #efefef;
+}
+
+.table-container th:nth-child(1){
+    width: 100px;
+ }
+.table-container td:nth-child(1){
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    .table-container{
+        width:80%;
+    }
+}

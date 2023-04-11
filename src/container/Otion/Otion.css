@@ -1,0 +1,34 @@
+.option_top{
+    padding-top: 300px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.option_title{
+    width: 400px;
+    margin: auto;
+}
+.option_title > li:first-child{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.option_title > li:last-child{
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+.option_img{
+    margin-top: 40px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.option_img > li >img{
+    width: 100%;
+    height: 300px;
+}

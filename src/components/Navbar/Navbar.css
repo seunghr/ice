@@ -1,0 +1,38 @@
+.lnb{
+    width: 100% ;
+    height: 140px;
+    display: flex;
+    position: fixed;
+    background-color: inherit;
+    z-index: 99;
+}
+.lnb.active{
+    background-color: #c8c8c8a1;
+    color: #000;
+    position: fixed;
+    top: 0;
+}    
+.lnb>ul{ 
+    display: flex;  
+    height: 140px;
+}
+.lnb>ul>li>a{  
+    margin: 30px;
+    color:inherit;
+    font-weight: bold;
+    line-height: 140px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+}
+.lnb02{
+    width: 400px;
+    height: 140px;
+    margin: auto;
+    margin-top: 20px;
+}
+.lnb03{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
