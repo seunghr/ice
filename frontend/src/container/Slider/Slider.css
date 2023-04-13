@@ -6,13 +6,13 @@
     position: relative;
 }
 .slider-box{
-    width: 5500px;
+    width: 6000px;
     height: 670px;
     display: flex;
     transition: 1s;
 }
 .slider{
-    width: 1900px;
+    width: 2000px;
     margin: auto;
 }
 .slider > img{
