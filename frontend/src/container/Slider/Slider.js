@@ -26,7 +26,7 @@ const Slider = () => {
   return (
     <section className='slider-container'>
       <div className='slider-box' 
-      style={{marginLeft : `${-sliderToggle * 1600}px`}}>
+      style={{marginLeft : `${-sliderToggle * 1900}px`}}>
         <div className='slider'>
           <img src={banner01} />
         </div>
