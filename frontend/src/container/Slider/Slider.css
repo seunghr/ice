@@ -6,7 +6,7 @@
     position: relative;
 }
 .slider-box{
-    width: 4800px;
+    width: 6000px;
     height: 670px;
     display: flex;
     transition: 1s;
